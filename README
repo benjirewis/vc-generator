@@ -1,0 +1,14 @@
+A verification condition generator that takes [IMP
+language](https://en.wikipedia.org/wiki/IMP_(programming_language) as input. A project for
+Yale's CPSC 454: Software Analysis and Verification.
+
+Built with scala and [sbt](https://www.scala-sbt.org/). Verification conditions can be
+examined using a local installation of the [Z3](https://github.com/Z3Prover/z3) theorem prover.
+
+Use `sbt` to enter the scala build tool, `compile` and `run foo.imp` where `foo.imp` is some
+syntactically correct IMP program.
+
+Verification conditions are shown as standard output and written to `smt_input.txt` in the
+current directory.
+
+Some examples of IMP programs are included in the benchmarks directory.

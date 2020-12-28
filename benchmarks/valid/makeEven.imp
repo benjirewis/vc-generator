@@ -1,0 +1,9 @@
+program makeEven
+  post x % 2 = 0
+is
+	if x % 2 = 0 then
+		x := x;
+	else
+		x := x + 1;
+	end
+end

@@ -1,0 +1,5 @@
+program makeZero
+	post x = 0
+is
+	x := 0;
+end
